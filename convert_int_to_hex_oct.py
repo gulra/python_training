@@ -7,8 +7,7 @@ while (True):
                 break
         except:
                 print 'Please enter the INTEGER value'
-num_int = int(num)
 
 print '\nThe given integer number is \t\t',num
-print 'The equivalent octal format is \t\t', oct(num_int)
-print 'The equivalent hexadecimal value is \t', hex(num_int)
+print 'The equivalent octal format is \t\t', oct(num)
+print 'The equivalent hexadecimal value is \t', hex(num)
